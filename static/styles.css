@@ -1,0 +1,69 @@
+header {
+    background-color: #3D3B40;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+body {
+    font-family: JetBrains Mono;
+    color:lightcyan;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    height: 100vh;
+    background-color: #292929;
+}
+
+#denomination-container input:checked + label {
+    background-color:crimson;
+    color:gold;
+    border: 5px solid goldenrod;
+}
+
+#date-container, #denomination-container, #bill-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#denomination-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#denomination-container label {
+    background-color:ghostwhite;
+    color:midnightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+#denomination-container input {
+    display: none;
+}
+
+#bill-container p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #292929;
+    background-color: #f8f8f8; 
+    text-align: center;
+    padding: 10px;
+}
+
