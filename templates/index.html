@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Milk Expense Tracker</title>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+</head>
+<body>
+<header>
+    <h1>Milk Expense Tracker</h1>
+</header>
+
+<div id="date-container">
+    <span id="current-day">Day</span>
+    <span id="current-date">Date</span>
+    <span id="current-month">Month</span>
+    <p id="current-time">Time</p>
+</div>
+
+<div id="denomination-container">
+    <input type="radio" name="denomination" value="0" id="d1"><label for="d1"> 0 litre</label>
+    <input type="radio" name="denomination" value="1" id="d2"><label for="d2"> 1 litre</label>
+    <input type="radio" name="denomination" value="1.5" id="d3"><label for="d3"> 1.5 litre</label>
+    <input type="radio" name="denomination" value="2" id="d4"><label for="d4"> 2 litres</label>
+</div>
+
+<div id="bill-container">
+    <p>Total Bill for the Month So Far: ₹<span id="total-bill"></span></p>
+</div>
+
+<script src="/static/scripts.js"></script>
+<footer>
+    <p>Antony Rishwyn&trade;</p>
+</footer>
+</body>
+</html>
